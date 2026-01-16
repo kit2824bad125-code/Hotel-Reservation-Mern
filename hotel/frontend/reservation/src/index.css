@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background: #f4f8ff;
+  color: #222;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+  background: white;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.navbar h2 {
+  color: #003580;
+  margin: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #003580;
+  margin-left: 20px;
+}
+
+.auth-links {
+  margin-left: 20px;
+}
+
+.auth-links .slash {
+  margin: 0 6px;
+}
+
+/* ================= HOME ================= */
+
+.home-container {
+  padding: 40px;
+  text-align: center;
+}
+
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 30px;
+}
+
+/* ================= HOTELS ================= */
+
+.hotel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px;
+  padding: 30px;
+}
+
+.hotel-card {
+  background: white;
+  border-radius: 14px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.hotel-card:hover {
+  transform: translateY(-6px);
+}
+
+.hotel-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.hotel-card h3 {
+  margin: 12px;
+}
+
+.hotel-card p {
+  margin: 0 12px 10px;
+  color: #555;
+}
+
+/* ================= DETAILS ================= */
+
+.details {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+  padding: 40px;
+}
+
+.details img {
+  width: 50%;
+  border-radius: 16px;
+}
+
+/* ================= RESERVATION FORM ================= */
+
+.reserve-box {
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+.reserve-box h3 {
+  margin-top: 0;
+  color: #003580;
+}
+
+.reserve-box label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.reserve-box input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+.reserve-box input:focus {
+  outline: none;
+  border-color: #003580;
+}
+
+.reserve-box button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background: #003580;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.reserve-box button:hover {
+  background: #002a66;
+}
+
+/* ================= MY BOOKINGS ================= */
+
+.page {
+  padding: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.booking-card {
+  background: white;
+  padding: 16px;
+  margin-bottom: 25px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+/* ✅ IMAGE CONTAINER */
+.booking-image {
+  width: 100%;
+  height: 180px;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 12px;
+  background: #eaeaea;
+}
+
+/* ✅ IMAGE OPTIMIZATION */
+.booking-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+/* Optional hover zoom */
+.booking-card:hover .booking-image img {
+  transform: scale(1.05);
+}
+
+.price {
+  color: #003580;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* ================= LOGIN / REGISTER ================= */
+
+.login {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login input {
+  width: 260px;
+  padding: 12px;
+  margin: 8px 0;
+}
+
+.login button {
+  width: 260px;
+  padding: 12px;
+  margin-top: 10px;
+  background: #003580;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
