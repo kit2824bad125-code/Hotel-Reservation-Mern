@@ -9,7 +9,11 @@ export default [
     rating: 4.9,
     maxGuests: 2,
     image:
-      "https://media.istockphoto.com/id/1717935024/photo/france-paris-the-ritz-paris-is-a-hotel-in-central-paris-overlooking-the-place-vend%C3%B4me-in-the.jpg?s=612x612&w=0&k=20&c=xsNhl8HobxLK81mQG6eyu-16015mTgZVwF15trpOlmE="
+      "https://media.istockphoto.com/id/1717935024/photo/france-paris-the-ritz-paris-is-a-hotel-in-central-paris-overlooking-the-place-vend%C3%B4me-in-the.jpg?s=612x612&w=0&k=20&c=xsNhl8HobxLK81mQG6eyu-16015mTgZVwF15trpOlmE=",
+      accommodation: "Iconic luxury rooms and suites blending classic elegance and modern comfort",
+services: "Personal Butler, 24/7 Room Service, Concierge, Airport Transfers",
+amenities: "Free WiFi, Indoor Pool, Luxury Spa, Fitness Center, Fine Dining"
+
   },
   {
     hotelKey: "le-meurice-paris",
@@ -21,8 +25,12 @@ export default [
     rating: 4.8,
     maxGuests: 2,
     image:
-      "https://media.istockphoto.com/id/1438155270/photo/famous-five-star-hotel-le-meurice.jpg?s=612x612&w=0&k=20&c=IDIGogw2OqDUOsZZOAoHt7W_AtnKncL1iMJMpyITecQ="
-  },
+      "https://media.istockphoto.com/id/1438155270/photo/famous-five-star-hotel-le-meurice.jpg?s=612x612&w=0&k=20&c=IDIGogw2OqDUOsZZOAoHt7W_AtnKncL1iMJMpyITecQ=",
+ accommodation: "Opulent rooms and suites inspired by 18th-century Parisian style",
+services: "Room Service, Concierge, Laundry, Chauffeur Services",
+amenities: "Free WiFi, Spa, Fitness Center, Michelin-star Dining"
+
+    },
   {
     hotelKey: "four-seasons-george-v",
     name: "Four Seasons George V",
@@ -33,8 +41,12 @@ export default [
     rating: 4.9,
     maxGuests: 2,
     image:
-      "https://media.istockphoto.com/id/1298075448/photo/george-v-hotel-with-christmas-lights-on-avenue-george-v-paris-france.jpg?s=612x612&w=0&k=20&c=NZrJYigBf6qXmtHD5r9q5rQ7Bo90SljRoqhTauVbiiM="
-  },
+      "https://media.istockphoto.com/id/1298075448/photo/george-v-hotel-with-christmas-lights-on-avenue-george-v-paris-france.jpg?s=612x612&w=0&k=20&c=NZrJYigBf6qXmtHD5r9q5rQ7Bo90SljRoqhTauVbiiM=",
+    accommodation: "Ultra-luxury rooms and suites with Eiffel Tower or courtyard views",
+services: "Personal Butler, 24/7 Room Service, Concierge, Laundry",
+amenities: "Free WiFi, Indoor Pool, Spa, Fitness Center, Fine Dining"
+
+    },
   {
     hotelKey: "hotel-lutetia",
     name: "Hotel Lutetia",
@@ -45,8 +57,12 @@ export default [
     rating: 4.7,
     maxGuests: 3,
     image:
-      "https://media.istockphoto.com/id/1978476180/photo/illuminated-hotel-lutetia-in-left-bank-of-paris.jpg?s=612x612&w=0&k=20&c=3oBo9ZAKQDev7Ni9gx0Lo3JVqmrKYrJAOmJyHLpB_R8="
-  },
+      "https://media.istockphoto.com/id/1978476180/photo/illuminated-hotel-lutetia-in-left-bank-of-paris.jpg?s=612x612&w=0&k=20&c=3oBo9ZAKQDev7Ni9gx0Lo3JVqmrKYrJAOmJyHLpB_R8=",
+    accommodation: "Elegant Art Deco rooms and suites with refined interiors",
+services: "Room Service, Concierge, Laundry, Business Services",
+amenities: "Free WiFi, Spa, Indoor Pool, Fitness Center"
+
+    },
   {
     hotelKey: "negresco-nice",
     name: "Hotel Negresco",
@@ -57,8 +73,12 @@ export default [
     rating: 4.7,
     maxGuests: 2,
     image:
-      "https://media.istockphoto.com/id/471524879/photo/luxury-hotel-negresco-on-english-promenade-in-nice.jpg?s=612x612&w=0&k=20&c=0jUFG9gZ2FTs9z98yNc2yjOlwVJqBkD7pB78o-9Ggzo="
-  },
+      "https://media.istockphoto.com/id/471524879/photo/luxury-hotel-negresco-on-english-promenade-in-nice.jpg?s=612x612&w=0&k=20&c=0jUFG9gZ2FTs9z98yNc2yjOlwVJqBkD7pB78o-9Ggzo=",
+    accommodation: "Historic luxury rooms with Belle Époque decor and sea views",
+services: "Room Service, Concierge, Laundry, Valet Parking",
+amenities: "Free WiFi, Private Beach Access, Spa, Fine Dining"
+
+    },
   {
     hotelKey: "hyatt-martinez-cannes",
     name: "Hyatt Regency Martinez",
@@ -69,8 +89,12 @@ export default [
     rating: 4.8,
     maxGuests: 3,
     image:
-      "https://media.istockphoto.com/id/1356975283/photo/downtown-milwaukee-hyatt-regency-hotel-associated-bank-river-center-and-the-city-hall.jpg?s=612x612&w=0&k=20&c=KPvS4RJjZ2PT6umwoI514WkWP1dTQFUTZKP5O9IHyfA="
-  },
+      "https://media.istockphoto.com/id/1356975283/photo/downtown-milwaukee-hyatt-regency-hotel-associated-bank-river-center-and-the-city-hall.jpg?s=612x612&w=0&k=20&c=KPvS4RJjZ2PT6umwoI514WkWP1dTQFUTZKP5O9IHyfA=",
+    accommodation: "Stylish luxury rooms and suites along the Croisette beachfront",
+services: "Room Service, Concierge, Laundry, Airport Transfers",
+amenities: "Free WiFi, Private Beach, Outdoor Pool, Fitness Center"
+
+    },
   {
     hotelKey: "intercontinental-marseille",
     name: "InterContinental",
@@ -81,8 +105,12 @@ export default [
     rating: 4.6,
     maxGuests: 3,
     image:
-      "https://media.istockphoto.com/id/983336424/photo/entrance-of-the-palacio-das-cardosas-intercontinental-hotel-facing-the-aliados-avenue-and.jpg?s=612x612&w=0&k=20&c=mzZoIkB0GKq6PxZmcoCMAj1_1BW2sIfWAE-2oj1_9A8="
-  },
+      "https://media.istockphoto.com/id/983336424/photo/entrance-of-the-palacio-das-cardosas-intercontinental-hotel-facing-the-aliados-avenue-and.jpg?s=612x612&w=0&k=20&c=mzZoIkB0GKq6PxZmcoCMAj1_1BW2sIfWAE-2oj1_9A8=",
+    accommodation: "Contemporary luxury rooms with views of the Old Port",
+services: "24/7 Room Service, Concierge, Laundry, Business Services",
+amenities: "Free WiFi, Spa, Fitness Center, Outdoor Pool"
+
+    },
   {
     hotelKey: "sofitel-lyon",
     name: "Sofitel Lyon Bellecour",
@@ -93,8 +121,12 @@ export default [
     rating: 4.5,
     maxGuests: 4,
     image:
-      "https://media.istockphoto.com/id/1200482881/photo/hotel-le-royal-building-view-a-luxury-mgalery-hotel-at-night-and-people-on-place-bellecour.jpg?s=612x612&w=0&k=20&c=TgJQCMexLQpRQBrj47N6HOIo496dVC2Zsq8c6Bk0C8U="
-  },
+      "https://media.istockphoto.com/id/1200482881/photo/hotel-le-royal-building-view-a-luxury-mgalery-hotel-at-night-and-people-on-place-bellecour.jpg?s=612x612&w=0&k=20&c=TgJQCMexLQpRQBrj47N6HOIo496dVC2Zsq8c6Bk0C8U=",
+    accommodation: "Modern upscale rooms overlooking the Rhône and city skyline",
+services: "Room Service, Concierge, Laundry, Business Facilities",
+amenities: "Free WiFi, Fitness Center, Fine Dining, City Views"
+
+    },
   {
     hotelKey: "radisson-nice",
     name: "Radisson Blu",
@@ -105,8 +137,12 @@ export default [
     rating: 4.6,
     maxGuests: 4,
     image:
-      "https://media.istockphoto.com/id/1442955569/photo/radisson-hotel-on-the-coast-of-bosphorus-strait.jpg?s=612x612&w=0&k=20&c=-q8kguznWKCxfA1j8BnGWWNb3zAyuuknBVQO30-yPSE="
-  },
+      "https://media.istockphoto.com/id/1442955569/photo/radisson-hotel-on-the-coast-of-bosphorus-strait.jpg?s=612x612&w=0&k=20&c=-q8kguznWKCxfA1j8BnGWWNb3zAyuuknBVQO30-yPSE=",
+    accommodation: "Contemporary sea-view rooms on the Promenade des Anglais",
+services: "Room Service, Concierge, Laundry, Airport Transfers",
+amenities: "Free WiFi, Rooftop Pool, Fitness Center, Beach Access"
+
+    },
   {
     hotelKey: "chateau-bordeaux",
     name: "Château Luxury Hotel",
@@ -117,6 +153,10 @@ export default [
     rating: 4.6,
     maxGuests: 3,
     image:
-      "https://media.istockphoto.com/id/1336931347/photo/fairmont-le-ch%C3%A2teau-frontenac-hotel-in-quebec-city.jpg?s=612x612&w=0&k=20&c=YsP0eJAwBye1j9SKSqsMWLD28dNsUeqdTGTbttkgqOs="
-  }
+      "https://media.istockphoto.com/id/1336931347/photo/fairmont-le-ch%C3%A2teau-frontenac-hotel-in-quebec-city.jpg?s=612x612&w=0&k=20&c=YsP0eJAwBye1j9SKSqsMWLD28dNsUeqdTGTbttkgqOs=",
+    accommodation: "Luxury château-style rooms surrounded by vineyards",
+services: "Concierge, Room Service, Wine Experiences, Airport Transfers",
+amenities: "Free WiFi, Outdoor Pool, Spa, Fitness Center, Vineyard Views"
+
+    }
 ];
