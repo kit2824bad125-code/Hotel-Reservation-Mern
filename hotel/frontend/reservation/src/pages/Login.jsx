@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { API } from "../api";
 import { useNavigate } from "react-router-dom";
+import "../styles/Auth.css";
 
 export default function Login() {
   const navigate = useNavigate();
@@ -13,11 +14,7 @@ export default function Login() {
     try {
       const res = await API.post("/login", form);
 
-      // ✅ ONLY LOGIN SETS SESSION
-      sessionStorage.setItem(
-        "user",
-        JSON.stringify(res.data.user)
-      );
+      sessionStorage.setItem("user", JSON.stringify(res.data.user));
 
       alert("Login successful");
       navigate("/home");
@@ -27,27 +24,46 @@ export default function Login() {
   };
 
   return (
-    <div className="login">
-      <h2>Login</h2>
+    <div className="login-page">
+      <div className="auth-card">
+        <div className="auth-header">
+          <h2>Welcome Back</h2>
+          <p>Login to continue your journey</p>
+        </div>
 
-      <input
-        placeholder="Email"
-        value={form.email}
-        onChange={e =>
-          setForm({ ...form, email: e.target.value })
-        }
-      />
+        <div className="auth-form">
+          <div className="field">
+            <input
+              placeholder="Email"
+              value={form.email}
+              onChange={e => setForm({ ...form, email: e.target.value })}
+            />
+          </div>
 
-      <input
-        type="password"
-        placeholder="Password"
-        value={form.password}
-        onChange={e =>
-          setForm({ ...form, password: e.target.value })
-        }
-      />
+          <div className="field">
+            <input
+              type="password"
+              placeholder="Password"
+              value={form.password}
+              onChange={e => setForm({ ...form, password: e.target.value })}
+            />
+          </div>
 
-      <button onClick={submit}>Login</button>
+          <button className="auth-btn" onClick={submit}>
+            Login
+          </button>
+
+          <p className="auth-footer">
+            Don’t have an account?{" "}
+            <span
+              className="auth-link"
+              onClick={() => navigate("/register")}
+            >
+              Register
+            </span>
+          </p>
+        </div>
+      </div>
     </div>
   );
 }

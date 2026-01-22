@@ -6,7 +6,7 @@ export default function About() {
       <Navbar />
 
       <div className="about-wrapper">
-        {/* HERO */}
+        
         <section className="about-hero">
           <h1>EasyReserve</h1>
           <p>
@@ -15,7 +15,6 @@ export default function About() {
           </p>
         </section>
 
-        {/* OVERVIEW */}
         <section className="about-section glass">
           <h2>About the Platform</h2>
           <p>
@@ -26,7 +25,7 @@ export default function About() {
           </p>
         </section>
 
-        {/* FEATURES */}
+        
         <section className="about-section">
           <h2>Core Features</h2>
 
@@ -59,7 +58,7 @@ export default function About() {
 
        
 
-        {/* FUTURE */}
+       
         <section className="about-section">
           <h2>Future Enhancements</h2>
           <ul className="future-list">
@@ -70,7 +69,7 @@ export default function About() {
           </ul>
         </section>
 
-        {/* FOOTER */}
+        
         <footer className="about-footer">
           <p>
             EasyReserve is a full-stack project developed with industry-level
